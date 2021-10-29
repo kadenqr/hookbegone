@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body bgcolor="teal">
+<br>
+<h1 align="center">Welcome {{name}} !</h1>
+<!-- <form action="/home" method="post">
+    <h2></h2>Username:<br>
+    <input type="text" name='username'><br>
+    Password:<br>
+    <input  name='password' ><br><br>
+  <input type="submit" value="Login">
+  </form> -->
+<form action="/home" method="post">
+    <h3 align="center">
+        Webhook Message Sender
+    </h3>
+    Webhook Username:<br>
+    <input type="text" name='webhook_username' align="center"><br>
+    Webhook Messsage:<br>
+    <input type="text" name="webhook_message" align="center"><br>
+    Webhook Link:<br>
+    <input type="text" name="webhook_link" align="center"><br>
+    <input type="submit" value="webhook_send" align="center">
+</form>
+</body>
+</html>
